@@ -1,0 +1,25 @@
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    background-color: rgb(38, 51, 198);
+    color: black;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: thistle;
+}
+li:hover{
+    background-color: thistle;
+}
